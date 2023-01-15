@@ -1,0 +1,30 @@
+{
+  "name": "amanti_server",
+  "version": "1.0.0",
+  "description": "Server That connect to mySql database",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryzentx",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "password-validator": "^5.3.0",
+    "session-file-store": "^1.5.0",
+    "ssn-validator": "^2.0.1",
+    "validate-phone-number-node-js": "^0.0.1",
+    "validator": "^13.7.0",
+    "var": "^0.4.0"
+  }
+}
