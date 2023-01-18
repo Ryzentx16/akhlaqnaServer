@@ -4,7 +4,7 @@ const mysql = require("mysql");
 const connection = mysql.createPool({
   host: "sql876.main-hosting.eu",
   user: "u138139769_ryzentx",
-  password: "Abdo_12m",
+  password: "Ryzentx_12m",
   database: "u138139769_akhlaquna",
 });
 
